@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>KryptonEffect.fx</Source>
+      <Name>KryptonEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\KryptonEffect.xnb</Output>
+      <Time>2011-02-13T17:19:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BloomCombine.fx</Source>
+      <Name>BloomCombine</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\BloomCombine.xnb</Output>
+      <Time>2010-09-15T11:23:06-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BloomExtract.fx</Source>
+      <Name>BloomExtract</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\BloomExtract.xnb</Output>
+      <Time>2010-09-15T11:23:06-07:00</Time>
+    </Item>
+    <Item>
+      <Source>GaussianBlur.fx</Source>
+      <Name>GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\GaussianBlur.xnb</Output>
+      <Time>2010-09-15T11:23:06-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\GaussianBlur.fx</Source>
+      <Name>Effects\GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Effects\GaussianBlur.xnb</Output>
+      <Time>2012-10-05T19:18:06-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\PostProcessing\BrightPass.fx</Source>
+      <Name>Shaders\PostProcessing\BrightPass</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Shaders\PostProcessing\BrightPass.xnb</Output>
+      <Time>2012-10-28T16:49:40-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\PostProcessing\LightSourceMask.fx</Source>
+      <Name>Shaders\PostProcessing\LightSourceMask</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Shaders\PostProcessing\LightSourceMask.xnb</Output>
+      <Time>2012-10-28T16:49:40-07:00</Time>
+      <Dependency>
+        <Key>Shaders\PostProcessing\PPVertexShader.fxh</Key>
+        <Value>2012-10-28T16:49:40-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Shaders\PostProcessing\LigthRays.fx</Source>
+      <Name>Shaders\PostProcessing\LigthRays</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Shaders\PostProcessing\LigthRays.xnb</Output>
+      <Time>2012-10-28T16:49:40-07:00</Time>
+      <Dependency>
+        <Key>Shaders\PostProcessing\PPVertexShader.fxh</Key>
+        <Value>2012-10-28T16:49:40-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Shaders\PostProcessing\SceneBlend.fx</Source>
+      <Name>Shaders\PostProcessing\SceneBlend</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Shaders\PostProcessing\SceneBlend.xnb</Output>
+      <Time>2012-10-28T16:49:40-07:00</Time>
+      <Dependency>
+        <Key>Shaders\PostProcessing\PPVertexShader.fxh</Key>
+        <Value>2012-10-28T16:49:40-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>FXAA.fx</Source>
+      <Name>FXAA</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\FXAA.xnb</Output>
+      <Time>2013-01-11T19:53:36-08:00</Time>
+      <Dependency>
+        <Key>Fxaa3_11.fxh</Key>
+        <Value>2013-01-11T19:53:36-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>fps.spritefont</Source>
+      <Name>fps</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\fps.xnb</Output>
+      <Time>2012-05-29T17:35:06-07:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2012-05-29T18:12:36-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\DemoFont.spritefont</Source>
+      <Name>Fonts\DemoFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Fonts\DemoFont.xnb</Output>
+      <Time>2012-10-05T19:18:04-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Standard.spritefont</Source>
+      <Name>Standard</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Standard.xnb</Output>
+      <Time>2013-01-11T19:53:36-08:00</Time>
+    </Item>
+    <Item>
+      <Source>circleSprite.png</Source>
+      <Name>circleSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\circleSprite.xnb</Output>
+      <Time>2012-10-21T10:01:02-07:00</Time>
+    </Item>
+    <Item>
+      <Source>groundSprite.png</Source>
+      <Name>groundSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\groundSprite.xnb</Output>
+      <Time>2012-05-29T18:11:00-07:00</Time>
+    </Item>
+    <Item>
+      <Source>grassSprite.png</Source>
+      <Name>grassSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\grassSprite.xnb</Output>
+      <Time>2012-06-03T19:42:00-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\dirt.png</Source>
+      <Name>textures\blocks\dirt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\dirt.xnb</Output>
+      <Time>2012-06-20T14:21:08-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\grass.png</Source>
+      <Name>textures\blocks\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\grass.xnb</Output>
+      <Time>2012-10-22T20:53:58-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\stone.png</Source>
+      <Name>textures\blocks\stone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\stone.xnb</Output>
+      <Time>2012-10-02T22:25:56-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\character.png</Source>
+      <Name>textures\character</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\character.xnb</Output>
+      <Time>2012-07-02T22:01:28-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bliss.png</Source>
+      <Name>bliss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\bliss.xnb</Output>
+      <Time>2013-01-14T20:11:26-08:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grass.png</Source>
+      <Name>textures\grass\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grass.xnb</Output>
+      <Time>2011-12-11T20:32:50-08:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grasscovered.png</Source>
+      <Name>textures\grass\grasscovered</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grasscovered.xnb</Output>
+      <Time>2012-08-12T11:24:58-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grassleft.png</Source>
+      <Name>textures\grass\grassleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grassleft.xnb</Output>
+      <Time>2012-08-12T11:25:20-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grassleftright.png</Source>
+      <Name>textures\grass\grassleftright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grassleftright.xnb</Output>
+      <Time>2012-08-12T11:25:32-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grassright.png</Source>
+      <Name>textures\grass\grassright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grassright.xnb</Output>
+      <Time>2012-08-12T11:25:46-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grasstop.png</Source>
+      <Name>textures\grass\grasstop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grasstop.xnb</Output>
+      <Time>2012-08-12T11:26:00-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grasstopleft.png</Source>
+      <Name>textures\grass\grasstopleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grasstopleft.xnb</Output>
+      <Time>2012-08-12T11:26:12-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\grass\grasstopright.png</Source>
+      <Name>textures\grass\grasstopright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\grass\grasstopright.xnb</Output>
+      <Time>2012-08-12T11:26:44-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\cloud.png</Source>
+      <Name>textures\blocks\cloud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\cloud.xnb</Output>
+      <Time>2012-10-28T22:42:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\stand.png</Source>
+      <Name>textures\stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\stand.xnb</Output>
+      <Time>2012-11-11T18:36:18-08:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\walk.png</Source>
+      <Name>textures\walk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\walk.xnb</Output>
+      <Time>2012-11-11T18:36:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\vignette.png</Source>
+      <Name>textures\vignette</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\vignette.xnb</Output>
+      <Time>2012-10-28T22:54:56-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\gold.png</Source>
+      <Name>textures\blocks\gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\gold.xnb</Output>
+      <Time>2012-10-22T19:53:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\iron.png</Source>
+      <Name>textures\blocks\iron</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\iron.xnb</Output>
+      <Time>2012-10-22T19:53:36-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\brush.png</Source>
+      <Name>textures\blocks\brush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\brush.xnb</Output>
+      <Time>2012-10-25T21:12:50-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\blocks\wood.png</Source>
+      <Name>textures\blocks\wood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\blocks\wood.xnb</Output>
+      <Time>2012-10-25T21:13:06-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\Backgrounds\BGForeGround_1_1.png</Source>
+      <Name>textures\Backgrounds\BGForeGround_1_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\Backgrounds\BGForeGround_1_1.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\Backgrounds\BGForeGround_1_2.png</Source>
+      <Name>textures\Backgrounds\BGForeGround_1_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\Backgrounds\BGForeGround_1_2.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\Backgrounds\BGForeGround_1_3.png</Source>
+      <Name>textures\Backgrounds\BGForeGround_1_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\Backgrounds\BGForeGround_1_3.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\flare.png</Source>
+      <Name>textures\flare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\flare.xnb</Output>
+      <Time>2013-01-14T20:03:58-08:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\flare2.png</Source>
+      <Name>textures\flare2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\flare2.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\flare3.png</Source>
+      <Name>textures\flare3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\flare3.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\flare4.png</Source>
+      <Name>textures\flare4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\flare4.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\MouseMask.png</Source>
+      <Name>textures\MouseMask</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\MouseMask.xnb</Output>
+      <Time>2012-10-28T16:49:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\arm.png</Source>
+      <Name>textures\arm</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\arm.xnb</Output>
+      <Time>2012-11-11T18:36:28-08:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\sword.png</Source>
+      <Name>textures\sword</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\sword.xnb</Output>
+      <Time>2013-10-03T13:14:17.9360929-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\back.png</Source>
+      <Name>textures\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\back.xnb</Output>
+      <Time>2013-02-12T16:54:48-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Minecraftia.spritefont</Source>
+      <Name>Fonts\Minecraftia</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Fonts\Minecraftia.xnb</Output>
+      <Time>2013-09-26T23:20:06.9946498-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\8BitWonder.spritefont</Source>
+      <Name>Fonts\8BitWonder</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Fonts\8BitWonder.xnb</Output>
+      <Time>2013-09-26T13:25:58.8183627-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\MenuMusic.mp3</Source>
+      <Name>Audio\MenuMusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Audio\MenuMusic.xnb</Output>
+      <Extra>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Audio\MenuMusic.wma</Extra>
+      <Time>2013-09-28T21:01:03.8462982-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Blip2.wav</Source>
+      <Name>Audio\Blip2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Audio\Blip2.xnb</Output>
+      <Time>2013-09-29T11:32:06.6314644-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Blip1.wav</Source>
+      <Name>Audio\Blip1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\Audio\Blip1.xnb</Output>
+      <Time>2013-09-29T11:29:17.9238149-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\metaparticle.png</Source>
+      <Name>textures\metaparticle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\metaparticle.xnb</Output>
+      <Time>2013-09-30T20:47:38.6044095-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\pick.png</Source>
+      <Name>textures\pick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\textures\pick.xnb</Output>
+      <Time>2013-10-06T22:44:48.7196247-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{B289EA7E-68B4-4FD9-BFFE-C0CA04EF519B}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmithContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Nicholas\Documents\Visual Studio 2010\Projects\BitSmith\BitSmith\BitSmith\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-09-01T09:54:36.0113303-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
